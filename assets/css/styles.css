@@ -181,7 +181,17 @@ img {
 
 
 /*=============== PROGRAM ===============*/
+.program__container{
+grid-template-columns:225px;
+justify-content:center;
+row-gap:2rem;
 
+}
+
+.program__card{
+display:grid;
+background-color: red;
+}
 
 /*=============== CHOOSE ===============*/
 
