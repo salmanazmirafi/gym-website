@@ -379,12 +379,36 @@ line-height:150%;
 }
 .program__button{
 justify-self:flex-end;
-margin-to:1.5rem;
+margin-top:1.5rem;
 font-size:1.25rem;
-color:var(--title-color);
-/*opacity:0;*/
+color:var(--title-color-black);
+opacity:0;
 transition:opacity .4s;
 
+}
+.program__button i{
+  display: flex;
+  transition: transform .3s;
+}
+.program__button:hover i{
+transform: translateX(.25rem);
+}
+
+.program__card:hover {
+  background-color: var(--first-color);
+  border: 2px solid var(--first-color-light);
+}
+
+.program__card:hover .program__shape{
+  background-color:var(--first-color-light);
+}
+
+.program__card:hover .program__title,
+.program__card:hover .program__description{
+  color: var(--title-color-black);
+}
+.program__card:hover .program__button{
+  opacity: 1;
 }
 /*=============== CHOOSE ==============*/
 
