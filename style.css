@@ -1,4 +1,4 @@
-/*=============== GOOGLE FONTS ===============*/
+﻿/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
@@ -340,12 +340,57 @@ img {
 
 
 /*=============== PROGRAM ===============*/
+.program__container{
 
-/*=============== CHOOSE ===============*/
+grid-template-columns:225px;
+justify-content:center;
+row-gap:2rem;
+
+}
+
+.program__card{
+display:grid;
+background-color: hsla(79, 6%, 64%, .07);
+padding:3.5rem 2rem;
+border 2px solid transform;
+transition:background .5s, border .4s
+}
+.program__img{
+width:38px
+}
+.program__shape{
+    width:50px;
+    height:50px;
+    background-color: var(--first-color-gray);
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    margin-bottom: 1rem;
+    transition:background .5s
+}
+.program__title{
+font-size:var  (--h3-font-size);
+margin-bottom:1rem;
+}
+.program__description{
+font-size:var  (--small-font-size);
+letter-spacing:.5px;
+line-height:150%;
+}
+.program__button{
+justify-self:flex-end;
+margin-to:1.5rem;
+font-size:1.25rem;
+color:var(--title-color);
+/*opacity:0;*/
+transition:opacity .4s;
+
+}
+/*=============== CHOOSE ==============*/
 
 /*=============== PRICING ===============*/
 
-/*=============== CALCULATE ===============*/
+/*=============== CALCULATE ==============*/
 
 /*=============== FOOTER ===============*/
 
